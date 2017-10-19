@@ -328,6 +328,26 @@
   <ItemGroup>
     <Content Include="Views\Home\daftar.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\Cabin-Regular.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\fontawesome-webfont.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\validasi_tiket.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\User\data_pembeli.cshtml" />
+    <Content Include="Views\User\ketentuan.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Admin\kotak_validasi.cshtml" />
+    <Content Include="Views\Admin\pembeli_belum_lunas.cshtml" />
+    <Content Include="Views\Admin\pembeli_lunas.cshtml" />
+    <Content Include="Views\Admin\semua_pembeli.cshtml" />
+    <Content Include="Views\Admin\user_detail.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

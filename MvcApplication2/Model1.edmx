@@ -35,7 +35,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="2" />
+          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="2" StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="varchar" Nullable="false" MaxLength="40" />
           <Property Name="harga_tiket" Type="decimal" Nullable="false" Precision="10" Scale="2" />
@@ -57,7 +57,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="3" />
+          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="3" StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="varchar" Nullable="false" MaxLength="40" />
           <Property Name="email_pembeli" Type="varchar" Nullable="false" MaxLength="50" />
@@ -90,7 +90,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="3" />
+          <Property Name="prefix" Type="varchar" Nullable="false" MaxLength="3" StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="varchar" Nullable="false" MaxLength="40" />
           <Property Name="tgl_order" Type="varchar" Nullable="false" MaxLength="300" />
@@ -154,7 +154,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+          <Property Name="prefix" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
           <Property Name="harga_tiket" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
@@ -180,7 +180,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
           <Property Name="email_pembeli" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
@@ -213,7 +213,7 @@
           <Key>
             <PropertyRef Name="id_pembeli" />
           </Key>
-          <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+          <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
           <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
           <Property Name="tgl_order" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />

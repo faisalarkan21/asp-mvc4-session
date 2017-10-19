@@ -30,7 +30,7 @@
     <Key>
       <PropertyRef Name="id_pembeli" />
     </Key>
-    <Property Name="prefix" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" />
+    <Property Name="prefix" Type="String" Nullable="false" MaxLength="2" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
     <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
     <Property Name="harga_tiket" Type="Decimal" Nullable="false" Precision="10" Scale="2" />
@@ -56,7 +56,7 @@
     <Key>
       <PropertyRef Name="id_pembeli" />
     </Key>
-    <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
     <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
     <Property Name="email_pembeli" Type="String" Nullable="false" MaxLength="50" Unicode="false" FixedLength="false" />
@@ -89,7 +89,7 @@
     <Key>
       <PropertyRef Name="id_pembeli" />
     </Key>
-    <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" />
+    <Property Name="prefix" Type="String" Nullable="false" MaxLength="3" Unicode="false" FixedLength="false" annotation:StoreGeneratedPattern="Computed" />
     <Property Name="id_pembeli" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
     <Property Name="nm_pembeli" Type="String" Nullable="false" MaxLength="40" Unicode="false" FixedLength="false" />
     <Property Name="tgl_order" Type="String" Nullable="false" MaxLength="300" Unicode="false" FixedLength="false" />

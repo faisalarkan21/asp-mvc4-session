@@ -104,7 +104,7 @@ new SelectListItem() {Text = "Perempuan", Value="Perempuan"}}, "Pilih Gender", n
                                     <label for="metode " class="control-label">
                                         Pilih Bandara Keberangkatan
                                     </label>
-                                    @Html.DropDownListFor(z => z.tblDetailTiket.bandara_berangkat, airlines_clone.Controllers.HomeController.getBandara(),"Pilih Bandara Keberangkatan", new { @class = "form-control", @onchange = "keberangkatan(this.value);", @required = "required" })
+                                    @Html.DropDownListFor(z => z.tblDetailTiket.bandara_berangkat, MvcApplication2.Controllers.HomeController.getBandara(),"Pilih Bandara Keberangkatan", new { @class = "form-control", @onchange = "keberangkatan(this.value);", @required = "required" })
 
 
                                 </div>
@@ -138,7 +138,7 @@ new SelectListItem() {Text = "Perempuan", Value="Perempuan"}}, "Pilih Gender", n
                                         Pilih  Bandara Tujuan
                                     </label>
 
-                                    @Html.DropDownListFor(x => x.tblDetailTiket.bandara_tujuan, airlines_clone.Controllers.HomeController.getBandara(),"Pilih Bandara Tujuan" ,new {  @class = "form-control", @onchange = "tujuan(this.value);", @required = "required" })
+                                    @Html.DropDownListFor(x => x.tblDetailTiket.bandara_tujuan, MvcApplication2.Controllers.HomeController.getBandara(),"Pilih Bandara Tujuan" ,new {  @class = "form-control", @onchange = "tujuan(this.value);", @required = "required" })
 
                                 </div>
                             </div>
